@@ -2,6 +2,10 @@ package com.sanjos30.helper;
 
 public class NumberHelper {
 
+	public static void main(String args[]) {
+		System.out.println(isEvenNumber(50));
+	}
+	
 	/**
 	 * Returns the square of a number
 	 * 
@@ -10,6 +14,13 @@ public class NumberHelper {
 	 */
 	public static double findSquareOfNumber(int num) {
 		return num*num;
+	}
+	
+	public static boolean isEvenNumber(int n) {
+		if(n%2==0) {
+			return true;
+		}else
+			return false;
 	}
 	
 	/**
