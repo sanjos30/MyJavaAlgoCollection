@@ -50,7 +50,7 @@ public class ShortestDistanceGrid {
 				int newX=currX+moveX[i];
 				int newY=currY+moveY[i];
 				//System.out.println("Scanning pattern is:");
-				System.out.print("("+newX + ","+newY+")" );
+				//System.out.print("("+newX + ","+newY+")" );
 				if(newX>=0&&newX<arr.length&&newY>=0&&newY<arr[0].length&&!visited[newX][newY]&&arr[newX][newY]!='0')
 				{
 					qNodes.add(new QNode(newX,newY,currDistance+1));
