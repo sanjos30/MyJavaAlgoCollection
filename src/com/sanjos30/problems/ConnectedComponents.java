@@ -1,5 +1,6 @@
 package com.sanjos30.problems;
 
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -29,7 +30,11 @@ public class ConnectedComponents {
 		List<String> o3 = new ArrayList<>();
 		o3.add("Item 6");
 		o1.add("Item 2");
-		//o3.add("A");
+		o1.add("Item 3");
+		
+
+		
+
 		
 		list.add(new Order("O1", o1));
 		list.add(new Order("O2", o2));
@@ -136,5 +141,7 @@ public class ConnectedComponents {
 				current_order_group.clear();
 			}		
 		}
-	}
+	
+
+}
 }
