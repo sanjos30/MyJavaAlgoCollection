@@ -1,4 +1,4 @@
-package com.sj.gph;
+package com.sanjos30.problems;
 
 public class BucketBallProblem {
 

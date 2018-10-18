@@ -18,6 +18,21 @@ public class IceCreamChangeProblem {
 
 	}
 
+	/**
+	 * Keep a count of only 10 and 5 dollars.
+	 * Below use case arises:
+	 * 
+	 * 1) The first elem should always be 5 - Increment the counter
+	 * 2) The second elem can only be a 5 or 10 - If it's a ten, increment the 10 counter and decrement the 5 counter
+	 * 3) The third element & hereforth can either be 5, 10 or 20. In case it is twenty below use case arises:
+	 * 		If count of 10 and count of 5 is greater than 1, then decrement them each
+	 * 		If the count of 10 is 0 and 5 count is greater than 2, then decrement the 5 counter by 3
+	 * 		else return a false
+	 * 
+	 * 
+	 * @param dollars
+	 * @return
+	 */
 	
 	private static boolean isChangeable(int[] dollars){
 		if(dollars == null || dollars.length == 0)

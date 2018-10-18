@@ -55,6 +55,14 @@ public class ConnectedComponents {
 		List<String> items; 
 	} 
 	
+	/**
+	 * This is the node of a Graph.
+	 * We have simplified the problem to be a connected component problem.
+	 * The graph must be visited using a DFS.
+	 * @author Sandeep
+	 *
+	 */
+	
 	static class GNode{ 
 		String item;
 		List<String> orderid = new ArrayList<>();

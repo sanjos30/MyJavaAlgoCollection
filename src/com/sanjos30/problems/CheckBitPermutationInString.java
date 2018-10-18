@@ -5,7 +5,7 @@ import java.util.List;
 public class CheckBitPermutationInString {
 
     public static void main(String[] args) {
-        System.out.println(isValid("11001", 2));
+        System.out.println(isValid("101010101110101110110", 3));
     }
 
     public static boolean isValid(String s, int k) {

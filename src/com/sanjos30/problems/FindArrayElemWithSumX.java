@@ -30,16 +30,17 @@ public class FindArrayElemWithSumX {
 		}
 		
 		int count=0;
+		
+		/**
+		 * Iterate on the map. 
+		 * Find if the map contains a key (k-i). Keep a count.
+		 */
 		for(int i:arr) {
-			int temp=k-i;
-			
-			if(hMap.containsKey(temp)) {
-				
+			int temp=k-i;						
+			if(hMap.containsKey(temp)) {				
 				count++;
 				System.out.println(i + ", " + temp);
-			}
-				
-			
+			}							
 		}
 		
 		System.out.println(count);

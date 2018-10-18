@@ -50,6 +50,19 @@ public class AmazonOrderByCity {
 		topNCities(amazonOrders, 2);
 	}
 
+	/**
+	 * The idea behind this method is:
+	 * 
+	 * 1) Take a list of orders. Each order has a string property called city
+	 * 2) Iterate the list. Use the city name as key to enter into another Map. The value is  the City object.
+	 * 3) Now that you have a Map with city as key, and it's value as city objects (can be with list of values)
+	 * 4) Create a priority queue of cities type. Implement a comparator method.
+	 * 5) Put all the cities object in the priority queue until the size is k. For items greater than k, compare the newly
+	 * 	  inserted items with the pop() item. If it's greater than PQ's least item, do an insert O(log n)
+	 *
+	 * @param amazonOrders
+	 * @param n
+	 */
 	private static void topNCities(List<Order> amazonOrders, int n) {
 		
 		Map<String,City> cityOrderMap=new HashMap<String,City>();

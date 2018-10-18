@@ -28,18 +28,18 @@ public class JavaMaxKElems {
 		
 		System.out.println(n);
 
-		System.out.println(n);
+		//System.out.println(n);
 		
 		
 		
 		
-		PriorityQueue<Integer> n1=new PriorityQueue<Integer>(10,Collections.reverseOrder());
+		PriorityQueue<Integer> n1=new PriorityQueue<Integer>(10);
 		
 		n1.add(1);
 		n1.add(121);
 		n1.add(12);
 		n1.add(1222);
-		
+
 		System.out.println(n1);
 	}
 	

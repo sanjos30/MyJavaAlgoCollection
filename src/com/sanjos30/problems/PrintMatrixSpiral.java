@@ -7,12 +7,13 @@ public class PrintMatrixSpiral
  static void spiralPrint(int m, int n, int a[][]) 
  { 
      int i, k = 0, l = 0; 
-     /*  k - starting row index 
+     
+ /*  k - starting row index 
      m - ending row index 
      l - starting column index 
      n - ending column index 
      i - iterator 
-     */
+ */
         
      while (k < m && l < n) 
      { 
@@ -23,6 +24,8 @@ public class PrintMatrixSpiral
          } 
          k++; 
 
+         //The row has increased. So start printing columns from row number 2
+         
          // Print the last column from the remaining columns  
          for (i = k; i < m; ++i) 
          { 

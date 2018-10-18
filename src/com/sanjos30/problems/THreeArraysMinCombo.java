@@ -37,6 +37,8 @@ public class THreeArraysMinCombo {
     
     private static int findPossibilityCount (int[] arr1, int[] arr2, int[] arr3) {
         
+    	
+    	//You can just get the index 0th of the sorted array.
         int smallestArr2 = smallestNumber(arr2);
         int smallestArr3 = smallestNumber(arr3);
         
