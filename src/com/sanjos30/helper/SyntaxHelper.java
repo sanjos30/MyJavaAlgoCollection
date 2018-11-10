@@ -7,7 +7,7 @@ public class SyntaxHelper {
 		switchStr();
 
 		switchInt();
-		
+
 		ternaryOperator();
 	}
 
@@ -47,10 +47,10 @@ public class SyntaxHelper {
 			}
 		}
 	}
-	
+
 	public static void ternaryOperator() {
-		int n=101;
-		n=n%10==0?1:0;
+		int n = 101;
+		n = n % 10 == 0 ? 1 : 0;
 		System.out.println(n);
 	}
 }
