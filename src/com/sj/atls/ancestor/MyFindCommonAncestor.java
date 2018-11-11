@@ -1,6 +1,12 @@
 package com.sj.atls.ancestor;
 
 import java.util.HashSet;
+
+/**
+ * An algorithm to find common ancestor of 2 nodes. 
+ * This is often asked in interviews using variations like merging two branches of a code repo
+ * 
+ */
 import java.util.Set;
 
 public class MyFindCommonAncestor {
@@ -26,7 +32,7 @@ public class MyFindCommonAncestor {
 		while (index < commitHashes.length) {
 
 			if (commitHashes[index].equals(commitHash)) { // check if commit exists in the parent's commits array then
-															// take out its index from parent
+				// take out its index from parent
 				commitPathSet.add(commitHashes[index]);
 				break; // if commit found in parent then get it and break further loop iteration
 			}
@@ -36,7 +42,7 @@ public class MyFindCommonAncestor {
 
 		if (parentHashes[index] != null) { // make sure index is not null i.e. before any initial/first commit
 			for (String parent : parentHashes[index]) { // loop over and collect all corresponding matching commits from
-														// parent's commit array
+				// parent's commit array
 				if (!commitPathSet.contains(parent))
 					addToCommitPath(commitPathSet, index, parent, commitHashes, parentHashes);
 			} // end for loop
