@@ -2,6 +2,12 @@ package com.sj.shortcode;
 
 import java.util.Stack;
 
+/**
+ * Divide an array in two parts
+ * 
+ * @author Sanjos30
+ *
+ */
 public class DivideArrayInTwo {
 
 	public static void main(String[] args) {
