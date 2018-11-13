@@ -2,12 +2,13 @@ package com.sj.atls.ancestor;
 
 import java.util.HashSet;
 
+import java.util.Set;
+
 /**
  * An algorithm to find common ancestor of 2 nodes. 
  * This is often asked in interviews using variations like merging two branches of a code repo
  * 
  */
-import java.util.Set;
 
 public class MyFindCommonAncestor {
 

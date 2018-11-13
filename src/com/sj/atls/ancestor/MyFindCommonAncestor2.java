@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Set;
  
  
+// THIS IS NOT MY PROGRAM AND WAS USED FROM ANOTHER WEBSITE
+
 /**
  * Finds the common ancestor for 2 commits in a Git commit graph.
  *
@@ -15,6 +17,7 @@ import java.util.Set;
  *
  * @author Greg Bowering
  */
+
 public class MyFindCommonAncestor2 {
  
   public static String findCommmonAncestor(String[] commitHashes,
