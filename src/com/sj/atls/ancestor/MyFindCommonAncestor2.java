@@ -8,7 +8,8 @@ import java.util.List;
 import java.util.Set;
  
  
-// THIS IS NOT MY PROGRAM AND WAS USED FROM ANOTHER WEBSITE
+// THIS IS NOT MY PROGRAM AND WAS USED FROM ANOTHER WEBSITE.
+// MINOR MODIFICATIONS WERE MADE TO THE PROGRAM ON 24-NOV-2018
 
 /**
  * Finds the common ancestor for 2 commits in a Git commit graph.
