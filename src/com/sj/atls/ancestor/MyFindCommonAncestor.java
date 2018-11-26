@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 import java.util.Set;
 
+// THIS CODE WAS NOT WRITTEN BY ME - IT WAS REFERENCED FROM STACKOVERFLOW
 /**
  * An algorithm to find common ancestor of 2 nodes. 
  * This is often asked in interviews using variations like merging two branches of a code repo
