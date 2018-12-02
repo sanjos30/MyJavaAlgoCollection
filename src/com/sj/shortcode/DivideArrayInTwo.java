@@ -3,7 +3,7 @@ package com.sj.shortcode;
 import java.util.Stack;
 
 /**
- * Divide an array in two parts
+ * Divide an array in two equal parts
  * 
  * @author Sanjos30
  *
