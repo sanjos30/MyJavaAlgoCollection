@@ -1,5 +1,8 @@
 package com.sanjos30.helper;
-
+/**
+ * This is a helper class.
+ * 
+ */
 import java.util.ArrayList;
 import java.util.List;
 
