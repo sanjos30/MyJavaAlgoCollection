@@ -1,5 +1,8 @@
 package com.sanjos30.helper;
-
+/**
+ * 
+ * A helper class for String.
+ */
 import java.util.LinkedHashMap;
 import java.util.Map;
 
