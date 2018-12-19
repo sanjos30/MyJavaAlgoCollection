@@ -9,7 +9,7 @@ import java.util.Map;
 public class StringHelper {
 
 	public static void main(String args[]) {
-		System.out.println(isSubSequence("apple", "abpcplea"));
+		System.out.println(isSubSequence("apples", "abplesc"));
 	}
 
 	/**
