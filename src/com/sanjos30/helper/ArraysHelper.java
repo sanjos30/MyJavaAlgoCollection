@@ -9,7 +9,7 @@ public class ArraysHelper {
 		for (int i : findArrayPrefixSum(preArr))
 			System.out.println(i);
 
-		// Min distance travelled
+		// Min distance travelled at this point
 		int n1 = 3;
 		int n2 = 3;
 		int a[][] = new int[][] { { 1, 0, 0 }, { 1, 0, 0 }, { 1, 9, 0 } };
