@@ -1,6 +1,9 @@
 target/
 bin/
 !.mvn/wrapper/maven-wrapper.jar
+company/
+leetcode/
+cracking-the-coding-interview/
 
 ### STS ###
 .apt_generated
