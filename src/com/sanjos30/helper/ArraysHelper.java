@@ -10,7 +10,7 @@ public class ArraysHelper {
 			System.out.println(i);
 
 		// Min distance travelled at this point
-		int n1 = 3;
+		int n1 = 3; 
 		int n2 = 3;
 		int a[][] = new int[][] { { 1, 0, 0 }, { 1, 0, 0 }, { 1, 9, 0 } };
 		System.out.println(findMinDistTravel(a, n1, n2));
