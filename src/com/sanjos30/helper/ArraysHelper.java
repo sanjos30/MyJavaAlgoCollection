@@ -9,8 +9,13 @@ public class ArraysHelper {
 		for (int i : findArrayPrefixSum(preArr))
 			System.out.println(i);
 
+<<<<<<< HEAD
 		// Min distance travelled at this point
 		int n1 = 3; 
+=======
+		// Min distance travelled at this point - so far
+		int n1 = 3;
+>>>>>>> 249098e0127987b7ef9d82888853e46fb084b7e3
 		int n2 = 3;
 		int a[][] = new int[][] { { 1, 0, 0 }, { 1, 0, 0 }, { 1, 9, 0 } };
 		System.out.println(findMinDistTravel(a, n1, n2));
