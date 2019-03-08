@@ -1,3 +1,5 @@
+package com.sj.shortcode;
+
 public class ArrayContinousSubSeqSumToX {
 	
 	public static void main(String args[]) {
