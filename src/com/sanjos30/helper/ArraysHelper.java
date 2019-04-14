@@ -5,7 +5,7 @@ import java.util.List;
 public class ArraysHelper {
 
 	public static void main(String args[]) {
-		int[] preArr = { 0, 1, -3, 4, 9, -7 };
+		int[] preArr = { 0, 2, -3, 4, 9, -7 };
 		for (int i : findArrayPrefixSum(preArr))
 			System.out.println(i);
 
