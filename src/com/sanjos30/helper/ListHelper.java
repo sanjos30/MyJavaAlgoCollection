@@ -8,6 +8,9 @@ import java.util.List;
 
 public class ListHelper {
 
+/**
+Main helper function
+*/
 	public static void main(String args[]) {
 		System.out.println(findMinimumDistanceToTravel2DList(prepareTestDataMatrixProb()));
 	}
